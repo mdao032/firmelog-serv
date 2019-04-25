@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="56edf70c-83ff-4273-a71b-6d4d9da34c4e" name="Default Changelist" comment="" />
+    <list default="true" id="56edf70c-83ff-4273-a71b-6d4d9da34c4e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,8 +68,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="45" column="21" lean-forward="true" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
+            <state relative-caret-position="204">
+              <caret line="33" column="56" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -145,7 +148,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1447" />
     <option name="y" value="207" />
     <option name="width" value="1366" />
@@ -291,7 +294,7 @@
       <workItem from="1555936842890" duration="16479000" />
       <workItem from="1556140499220" duration="4509000" />
       <workItem from="1556145121366" duration="2462000" />
-      <workItem from="1556147701149" duration="2260000" />
+      <workItem from="1556147701149" duration="2442000" />
     </task>
     <task id="LOCAL-00001" summary="User model implemented&#10;error : MongoMappingContext&#10;&lt;About to fix this error on the next step&gt;">
       <created>1555950697532</created>
@@ -304,10 +307,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25710000" />
+    <option name="totallyTimeSpent" value="25892000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="52" width="1936" height="1066" extended-state="7" />
+    <frame x="1358" y="52" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15778251" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -415,8 +419,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="45" column="21" lean-forward="true" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
+        <state relative-caret-position="204">
+          <caret line="33" column="56" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
         </state>
       </provider>
     </entry>
