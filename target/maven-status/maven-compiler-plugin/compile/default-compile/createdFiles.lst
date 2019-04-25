@@ -1,0 +1,5 @@
+com\firmelog\Service\UserService.class
+com\firmelog\Repositories\UserRepository.class
+com\firmelog\FirmelogApplication.class
+com\firmelog\Controller\UserController.class
+com\firmelog\Models\User.class
