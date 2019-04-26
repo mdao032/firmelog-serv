@@ -1,1 +1,211 @@
+package com.socgen.intranet;
 
+import com.socgen.intranet.Product;
+
+import java.text.DateFormat;
+import java.util.ArrayList;
+import java.util.List;
+
+
+
+//Model
+@Document
+public class Annonce {
+
+    public String title;
+    public Boolean available;
+    public DateFormat timeStampCreation;
+    public DateFormat timeStampUpdate;
+    public ArrayList product;
+
+    public String name;
+    public String description;
+    public String price;
+    public String availability_place;
+    public String delivery_places;
+    public String deliveryMethod;
+
+
+    Product item;
+
+    public Annonce(String title, Boolean available, DateFormat timeStampCreation, DateFormat timeStampUpdate,
+                   String name, String description, String price, String availability_place, String delivery_places, String deliveryMethod) {
+        this.title = title;
+        this.available = available;
+        this.timeStampCreation = timeStampCreation;
+        this.timeStampUpdate = timeStampUpdate;
+
+        // Product
+        this.name = name;
+        this.description = description;
+        this.price = price;
+        this.availability_place = availability_place;
+        this.delivery_places = delivery_places;
+        this.deliveryMethod = deliveryMethod;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public Boolean getAvailable() {
+        return available;
+    }
+
+    public void setAvailable(Boolean available) {
+        this.available = available;
+    }
+
+    public DateFormat getTimeStampCreation() {
+        return timeStampCreation;
+    }
+
+    public void setTimeStampCreation(DateFormat timeStampCreation) {
+        this.timeStampCreation = timeStampCreation;
+    }
+
+    public DateFormat getTimeStampUpdate() {
+        return timeStampUpdate;
+    }
+
+    public void setTimeStampUpdate(DateFormat timeStampUpdate) {
+        this.timeStampUpdate = timeStampUpdate;
+    }
+
+    public ArrayList getProduct() {
+        return product;
+    }
+
+    public void setProduct(ArrayList product) {
+        this.product = product;
+    }
+
+    // ~~~~~~~~~~~~~Product~~~~~~~~~~~~~~//
+
+    public String getName() {
+        return item.name;
+    }
+
+    public void setName(String name) {
+        this.name = item.name;
+    }
+
+    public String getDescription() {
+        return item.description;
+    }
+
+    public void setDescription(String description) {
+        this.description = item.description;
+    }
+
+    public String getPrice() {
+        return item.price;
+    }
+
+    public void setPrice(String price) {
+        this.price = item.price;
+    }
+
+    public String getAvailability_place() {
+        return item.availability_place;
+    }
+
+    public void setAvailability_place(String availability_place) {
+        this.availability_place = item.availability_place;
+    }
+
+    public String getDelivery_places() {
+        return item.delivery_places;
+    }
+
+    public void setDelivery_places(String delivery_places) {
+        this.delivery_places = item.delivery_places;
+    }
+
+    public String getDeliveryMethod() {
+        return item.deliveryMethod;
+    }
+
+    public void setDeliveryMethod(String deliveryMethod) {
+        this.deliveryMethod = item.deliveryMethod;
+    }
+
+}
+
+
+
+
+############################################################################
+package com.socgen.intranet;
+
+public class Product {
+
+    public String name;
+    public String price;
+    public String description;
+    public String availability_place;
+    public String delivery_places;
+    public String deliveryMethod;
+
+    public Product(String name, String price, String availability_place, String delivery_places, String deliveryMethod, String description) {
+
+        this.name = name;
+        this.price = price;
+        this.description = description;
+        this.availability_place = availability_place;
+        this.delivery_places = delivery_places;
+        this.deliveryMethod = deliveryMethod;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getPrice() {
+        return price;
+    }
+
+    public void setPrice(String price) {
+        this.price = price;
+    }
+
+    public String getDescription(){
+        return description;
+    }
+
+    public void setDescription(String description){
+        this.description = description;
+    }
+
+    public String getAvailability_place() {
+        return availability_place;
+    }
+
+    public void setAvailability_place(String availability_place) {
+        this.availability_place = availability_place;
+    }
+
+    public String getDelivery_places() {
+        return delivery_places;
+    }
+
+    public void setDelivery_places(String delivery_places) {
+        this.delivery_places = delivery_places;
+    }
+
+    public String getDeliveryMethod() {
+        return deliveryMethod;
+    }
+
+    public void setDeliveryMethod(String deliveryMethod) {
+        this.deliveryMethod = deliveryMethod;
+    }
+}
